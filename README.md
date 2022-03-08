@@ -1,4 +1,4 @@
-# Diane-Thomas-Project
+# 2021-2022_Diane_Thomas_Project
 Protocol de réalisation de capteurs low-tech à base de graphite
 
 Réalisation du PCB avec KICAD: Nous avons créer les symboles et les empreintes des composants qui n'existent pas(Amplificateur LT1050,Encodeur rotatoire, Module bluetooth, capteur)
