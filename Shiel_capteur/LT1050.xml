@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\diane\Desktop\Shield arduino\PCB_EXAM\LT1050\LT1050.kicad_sch</source>
+    <date>02/03/2022 11:54:17</date>
+    <tool>Eeschema (6.0.1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>lun. 30 mars 2015</date>
+        <source>LT1050.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>Power</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LT1050.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d70129</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>Analog</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x06</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LT1050.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d70dd8</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x10</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LT1050.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d721e0</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LT1050.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d7164f</tstamps>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LT1050.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d71177</tstamps>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LT1050.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d71274</tstamps>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LT1050.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d712a8</tstamps>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LT1050.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d712db</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LT1050</value>
+      <footprint>Librarie_composant:DIP-8_296_ELL</footprint>
+      <libsource lib="librairie_composant" part="LT1050" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LT1050.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>018ecfeb-9f26-4485-93b8-65762620cab9</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="librairie_composant" part="LT1050">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT1050</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC_2" type="no_connect"/>
+        <pin num="2" name="-IN" type="input"/>
+        <pin num="3" name="+IN" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="EXTCLOCKINPUT" type="input"/>
+        <pin num="6" name="OUT" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="librairie_composant">
+      <uri>C:\Users\diane\Desktop\Shield arduino\PCB_EXAM\LT1050/librairie_composant.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="P1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="P1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="3" name="/0(Rx)">
+      <node ref="P4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="4" name="/1(Tx)">
+      <node ref="P4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="5" name="/2">
+      <node ref="P4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="6" name="/3(**)">
+      <node ref="P4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="7" name="/4">
+      <node ref="P4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="8" name="/5(**)">
+      <node ref="P4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="9" name="/6(**)">
+      <node ref="P4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="10" name="/7">
+      <node ref="P4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="11" name="/8">
+      <node ref="P3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="12" name="/9(**)">
+      <node ref="P3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="13" name="/10(**{slash}SS)">
+      <node ref="P3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="14" name="/11(**{slash}MOSI)">
+      <node ref="P3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="15" name="/12(MISO)">
+      <node ref="P3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="16" name="/13(SCK)">
+      <node ref="P3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="17" name="/A0">
+      <node ref="P2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="18" name="/A1">
+      <node ref="P2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="19" name="/A2">
+      <node ref="P2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="20" name="/A3">
+      <node ref="P2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="21" name="/A4(SDA)">
+      <node ref="P2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="P3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="22" name="/A5(SCL)">
+      <node ref="P2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="P3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="23" name="/AREF">
+      <node ref="P3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="24" name="/IOREF">
+      <node ref="P1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="25" name="/Reset">
+      <node ref="P1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="26" name="/Vin">
+      <node ref="P1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="27" name="GND">
+      <node ref="P1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="P1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="P3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="28" name="unconnected-(P1-Pad1)">
+      <node ref="P1" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(P5-Pad1)">
+      <node ref="P5" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(P6-Pad1)">
+      <node ref="P6" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(P7-Pad1)">
+      <node ref="P7" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(P8-Pad1)">
+      <node ref="P8" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="NC_2" pintype="no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="-IN" pintype="input"/>
+    </net>
+    <net code="35" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="+IN" pintype="input"/>
+    </net>
+    <net code="36" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="37" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="EXTCLOCKINPUT" pintype="input"/>
+    </net>
+    <net code="38" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="39" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="40" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
