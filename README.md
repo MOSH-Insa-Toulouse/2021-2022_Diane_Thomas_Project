@@ -3,6 +3,24 @@ Protocol de réalisation de capteurs low-tech à base de graphite
 
 Réalisation du PCB avec KICAD: Nous avons créer les symboles et les empreintes des composants qui n'existent pas(Amplificateur LT1050,Encodeur rotatoire, Module bluetooth, capteur)
 
+
+
+
+
+
+
+## Première partie: Test du circuit électrique avec LT-Spice
+
+
+
+Nous avons commencé par réaliser le circuit trans-impédance ci-dessus sur LT-Spice afin de déterminer la fonction de chaque filtre sur le circuit et aussi déterminer l'atténuation globale d'un bruit en courant de 50 Hz et aussi l'atténuation globale d'un bruit en courant à la fréquence limite de repliement.
+
+
+
+
+
+
+
 ## Installation
 TODO: Describe the installation process
 ## Usage
