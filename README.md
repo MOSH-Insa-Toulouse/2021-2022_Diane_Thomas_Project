@@ -10,6 +10,8 @@ Réalisation du PCB avec KICAD: Nous avons créer les symboles et les empreintes
 
 
 ## Première partie: Test du circuit électrique avec LT-Spice
+![Circuit_suggéré](https://user-images.githubusercontent.com/98905793/161027466-d61d4278-4927-4314-a9a8-1a1a7b82081c.png)
+
 
 
 
