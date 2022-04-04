@@ -1,15 +1,22 @@
 # 2021-2022_Diane_Thomas_Project
 Protocol de réalisation de capteurs low-tech à base de graphite
 
-Réalisation du PCB avec KICAD: Nous avons créer les symboles et les empreintes des composants qui n'existent pas(Amplificateur LT1050,Encodeur rotatoire, Module bluetooth, capteur)
+
+# Sommaire
+- 1. Test circuit avec LT-Spice
+- 2. Réalisation PCB KICAD
+- 3. Réalisation PCB physique
+- 4. Code Arduino
+- 5. APK MIT AppInventor
+- 6. Banc de test
 
 
 
 
 
 
+## 1. Test du circuit électrique avec LT-Spice
 
-## 1. Première partie: Test du circuit électrique avec LT-Spice
 ![Circuit_suggéré](https://user-images.githubusercontent.com/98905793/161027466-d61d4278-4927-4314-a9a8-1a1a7b82081c.png)
 
 
@@ -50,14 +57,25 @@ Fréquence de coupure d'environ 1.6Hz, c'est un filtre actif passe bas qui perme
  
 
 ## 2. Réalisation PCB KICAD
+
 Pour la réalisation de notre PCB nous avons utilisé le logiciel KICAD. Nous avons d'abord effectué le schématique en assignant à chaque composants (Bluetooth, oled, encodeur rotatoire) une empreinte et un symbole que nous avons réalisé, ensuite nous avons assigné à chaque composant un motif 3D dans pour la visualisation fait le routage de notre PCB, et enfin nous avons effectué le routage de notre carte
+
 2.1. Schématique
 ![Schématique](https://user-images.githubusercontent.com/98905793/161578505-547fc367-0eae-473f-96f7-5a51b1d9bc94.png)
 
 2.2. Symbole et Empreinte des composants
+
 -Module bluetooth
+![Module_bluetooth](https://user-images.githubusercontent.com/98905793/161592737-143bc7c7-3068-4333-93f5-85c8d5d00196.png)
+
+
 -Encodeur rotatoire
+![encodeur_rotatoire](https://user-images.githubusercontent.com/98905793/161592620-12e2ea18-629f-47c3-a090-60c556da0042.png)
+
+
 -Oled
+![Oled](https://user-images.githubusercontent.com/98905793/161592788-2df53909-a14c-45ce-bc2a-833ea473ee02.png)
+
 
 2.3 Carte PCB 
 ![Carte_PCB](https://user-images.githubusercontent.com/98905793/161579979-e78d3553-924d-4140-9f97-e6bd357a53aa.png)
@@ -77,15 +95,16 @@ Après cette étape on rince encore à l'eau et voilà, notre carte est prête. 
 
 
 ## 4. Code Arduino
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+Dans notre code arduino, nous récuperons la valeur de la tension de notre capteur que nous convertissons en résistance. Nous affichons cette tension et cette  résistance sur l'oled et sur l'application que nous avons réalisée sur MIT AppIventor
+
+1. Fonction pour l'affichage oled
+2. Fonction pour la commande du module bluetooth
+3. Fonction pour l'encodeur rotatoire
+
 ## 5.APK MIT AppInventor
 TODO: Write history
 ## 6. Banc de test
-TODO: Write credits
+
 ## License
 TODO: Write license
 ## Roadmap
