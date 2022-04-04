@@ -63,7 +63,11 @@ Pour la réalisation de notre PCB nous avons utilisé le logiciel KICAD. Nous av
 ![Carte_PCB](https://user-images.githubusercontent.com/98905793/161579979-e78d3553-924d-4140-9f97-e6bd357a53aa.png)
 
 2.4 Carte PCB visu 3d
+
 ![Visu3d](https://user-images.githubusercontent.com/98905793/161579875-fbbe4a1d-7de7-44ed-8657-5575cc9e2078.png)
+
+
+
 
 ## 3. Réalisation PCB physique
 Nous avons imprimé notre circuit sur une carte d'époxy recouverte de cuivre lui même couvert par une résine positive photosensible.
