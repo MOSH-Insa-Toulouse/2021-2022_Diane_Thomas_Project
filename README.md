@@ -9,13 +9,13 @@ Réalisation du PCB avec KICAD: Nous avons créer les symboles et les empreintes
 
 
 
-## Première partie: Test du circuit électrique avec LT-Spice
+## 1. Première partie: Test du circuit électrique avec LT-Spice
 ![Circuit_suggéré](https://user-images.githubusercontent.com/98905793/161027466-d61d4278-4927-4314-a9a8-1a1a7b82081c.png)
 
 
 Nous avons commencé par réaliser le circuit trans-impédance ci-dessus sur LT-Spice afin de déterminer la fonction de chaque filtre sur le circuit et aussi déterminer l'atténuation globale d'un bruit en courant de 50 Hz et aussi l'atténuation globale d'un bruit en courant à la fréquence limite de repliement.
 
-1. Etude des filtres
+1.1. Etude des filtres
 
 Pour chaque filtre nous avons mesuré la fréquence de coupure expérimentalement avec LT-Spise et ensuite nous avons fait le calcul théorique avec la formule *fc=1/2*pi*R*C. Nous avons obtenus des valeurs expérimentales et théoriques très proches pour chaque filtre.
 
@@ -36,7 +36,7 @@ Fréquence de coupure d'environ 1.6Hz, c'est un filtre actif passe bas qui perme
  
  - La capacité C3 elle permet de filtrer le bruit d'alimentation.
  
- 2. Etude de l'atténuation à la fréquence de coupure et à la fréquence de niquyst
+ 1.2. Etude de l'atténuation à la fréquence de coupure et à la fréquence de niquyst
  Gain global obtenu ~140dB
  - Atténuation à la fréquence de 50Hz
  ![gain 50Hz](https://user-images.githubusercontent.com/98905793/161033772-1902ba1a-6215-4486-ac87-026ffd8e7faa.PNG)
@@ -49,26 +49,38 @@ Fréquence de coupure d'environ 1.6Hz, c'est un filtre actif passe bas qui perme
  
  
 
+## 2. Réalisation PCB KICAD
+Pour la réalisation de notre PCB nous avons utilisé le logiciel KICAD. Nous avons d'abord effectué le schématique en assignant à chaque composants (Bluetooth, oled, encodeur rotatoire) une empreinte et un symbole que nous avons réalisé, ensuite nous avons assigné à chaque composant un motif 3D dans pour la visualisation fait le routage de notre PCB, et enfin nous avons effectué le routage de notre carte
+2.1. Schématique
+![Schématique](https://user-images.githubusercontent.com/98905793/161578505-547fc367-0eae-473f-96f7-5a51b1d9bc94.png)
+
+2.2. Symbole et Empreinte des composants
+-Module bluetooth
+-Encodeur rotatoire
+-Oled
+
+2.3 Carte PCB 
+![Carte_PCB](https://user-images.githubusercontent.com/98905793/161579979-e78d3553-924d-4140-9f97-e6bd357a53aa.png)
+
+2.4 Carte PCB visu 3d
+![Visu3d](https://user-images.githubusercontent.com/98905793/161579875-fbbe4a1d-7de7-44ed-8657-5575cc9e2078.png)
+
+## 3. Réalisation PCB physique
+Nous avons imprimé notre circuit sur une carte d'époxy recouverte de cuivre lui même couvert par une résine positive photosensible.
+Notre circuit a d'abord été imprimé(avec une imprimante classique à l'encre) sur du papier plastique transparent. Les motifs ont été ensuite transferré sur la carte par insolation aux UV et un passage au développeur pour enlever la résine insolée.
+Ensuite nous passons la carte dans un bain de perclorure de fer pour enlever les parties métalliques qui ont été revélées lors de l'insolation. Après cette étape, nous rinçons notre carte à l'eau et la plongeons dans un bain d'acétone pour enlever la résine qui protégeait les autres parties du circuit. 
+Après cette étape on rince encore à l'eau et voilà, notre carte est prête. On utilise un forêt pour le perçage et enfin on soude les composants(résistances, capacités, amplificateur,..... ) sur la carte.
 
 
-
-
-
-
-
-## Installation
-TODO: Describe the installation process
-## Usage
-TODO: Write usage instructions
-## Contributing
+## 4. Code Arduino
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
-## History
+## 5.APK MIT AppInventor
 TODO: Write history
-## Credits
+## 6. Banc de test
 TODO: Write credits
 ## License
 TODO: Write license
