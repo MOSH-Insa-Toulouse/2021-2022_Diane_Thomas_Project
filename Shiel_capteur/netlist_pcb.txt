@@ -1,0 +1,16 @@
+Info: Reading netlist file 'C:\Users\diane\Desktop\Shield arduino\PCB_EXAM\LT1050\netlist.net'.
+
+Info: Using reference designators to match symbols and footprints.
+
+Info: Processing symbol 'P3:Socket_Arduino_Uno:Socket_Strip_Arduino_1x10'.
+Info: Processing symbol 'P1:Socket_Arduino_Uno:Socket_Strip_Arduino_1x08'.
+Info: Processing symbol 'P4:Socket_Arduino_Uno:Socket_Strip_Arduino_1x08'.
+Info: Processing symbol 'P2:Socket_Arduino_Uno:Socket_Strip_Arduino_1x06'.
+Info: Processing symbol 'P5:Socket_Arduino_Uno:Arduino_1pin'.
+Info: Processing symbol 'P6:Socket_Arduino_Uno:Arduino_1pin'.
+Info: Processing symbol 'P7:Socket_Arduino_Uno:Arduino_1pin'.
+Info: Processing symbol 'P8:Socket_Arduino_Uno:Arduino_1pin'.
+Info: Processing symbol 'U1:Librarie_composant:DIP-8_296_ELL'.
+
+
+Info: Total warnings: 0, errors: 0.
