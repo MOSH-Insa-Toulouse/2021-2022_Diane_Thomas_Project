@@ -4,14 +4,18 @@ Protocol de réalisation de capteurs low-tech à base de graphite
 
 
 # Sommaire
-- 1. [Test circuit avec LT-Spice](#test -circuit)
-- 2. [Réalisation PCB KICAD](#realisation -pcb)
-- 3. [Réalisation PCB physique](#realisation -pc_bphysique)
-- 4. [Code Arduino](#code -arduino) 
-- 5. [APK MIT AppInventor](#apk -mit)
-- 6. [Banc de test](#banc -test)
+1. [Test circuit avec LT-Spice](#test-circuit-avec-lt-spice)
+2. [Réalisation PCB KICAD](#realisation-pcb-kicad)
+3. [Réalisation PCB physique](#realisation-pcb-physique)
+4. [Code Arduino](#code -arduino) 
+5. [APK MIT AppInventor](#apk-mit)
+6. [Banc de test](#banc-test)
 
-
+1. [General Info](#general-info)
+2. [Technologies](#technologies)
+3. [Installation](#installation)
+4. [Collaboration](#collaboration)
+5. [FAQs](#faqs)
 
 
 
