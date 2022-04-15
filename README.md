@@ -11,9 +11,12 @@ Protocol de réalisation de capteurs low-tech à base de graphite
 - 5. [APK MIT AppInventor]
 - 6. [Banc de test]
 
-<a name="general-info"></a>
-### 7. General Info
 
+1. [General Info](#general-info)
+2. [Technologies](#technologies)
+3. [Installation](#installation)
+4. [Collaboration](#collaboration)
+5. [FAQs](#faqs)
 
 
 
