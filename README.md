@@ -8,8 +8,8 @@ Protocol de réalisation de capteurs low-tech à base de graphite
 2. [Réalisation PCB KICAD](#realisation-pcb-kicad)
 3. [Réalisation PCB physique](#realisation-pcb-physique)
 4. [Code Arduino](#code-arduino) 
-5. [APK MIT AppInventor](#apk-mit)
-6. [Banc de test](#banc-test)
+5. [APK MIT AppInventor](#apk-mit-appinventor)
+6. [Banc de test](#banc-de-test)
 
 
 
