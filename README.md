@@ -3,7 +3,7 @@ Protocol de réalisation de capteurs low-tech à base de graphite
 
 
 
-# Sommaire
+## Sommaire
 1. [Test circuit avec LT-Spice](#test-circuit-avec-lt-spice)
 2. [Réalisation PCB KICAD](#realisation-pcb-kicad)
 3. [Réalisation PCB physique](#realisation-pcb-physique)
@@ -17,7 +17,7 @@ Protocol de réalisation de capteurs low-tech à base de graphite
 
 
 
-## 1. [Test circuit avec LT-Spice](#test-circuit-avec-lt-spice)
+### Test circuit avec LT-Spice
 
 ![Circuit_suggéré](https://user-images.githubusercontent.com/98905793/161027466-d61d4278-4927-4314-a9a8-1a1a7b82081c.png)
 
