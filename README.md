@@ -7,21 +7,17 @@ Protocol de réalisation de capteurs low-tech à base de graphite
 1. [Test circuit avec LT-Spice](#test-circuit-avec-lt-spice)
 2. [Réalisation PCB KICAD](#realisation-pcb-kicad)
 3. [Réalisation PCB physique](#realisation-pcb-physique)
-4. [Code Arduino](#code -arduino) 
+4. [Code Arduino](#code-arduino) 
 5. [APK MIT AppInventor](#apk-mit)
 6. [Banc de test](#banc-test)
 
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
 
 
 
 
 
-## 1. Test du circuit électrique avec LT-Spice
+
+## 1. [Test circuit avec LT-Spice](#test-circuit-avec-lt-spice)
 
 ![Circuit_suggéré](https://user-images.githubusercontent.com/98905793/161027466-d61d4278-4927-4314-a9a8-1a1a7b82081c.png)
 
@@ -62,7 +58,7 @@ Fréquence de coupure d'environ 1.6Hz, c'est un filtre actif passe bas qui perme
  
  
 
-## 2. Réalisation PCB KICAD
+## [Réalisation PCB KICAD](#realisation-pcb-kicad)
 
 Pour la réalisation de notre PCB nous avons utilisé le logiciel KICAD. Nous avons d'abord effectué le schématique en assignant à chaque composants (Bluetooth, oled, encodeur rotatoire) une empreinte et un symbole que nous avons réalisé, ensuite nous avons assigné à chaque composant un motif 3D dans pour la visualisation fait le routage de notre PCB, et enfin nous avons effectué le routage de notre carte
 
@@ -93,23 +89,23 @@ Pour la réalisation de notre PCB nous avons utilisé le logiciel KICAD. Nous av
 
 
 
-## 3. Réalisation PCB physique
+## 3. [Réalisation PCB physique](#realisation-pcb-physique)
 Nous avons imprimé notre circuit sur une carte d'époxy recouverte de cuivre lui même couvert par une résine positive photosensible.
 Notre circuit a d'abord été imprimé(avec une imprimante classique à l'encre) sur du papier plastique transparent. Les motifs ont été ensuite transferré sur la carte par insolation aux UV et un passage au développeur pour enlever la résine insolée.
 Ensuite nous passons la carte dans un bain de perclorure de fer pour enlever les parties métalliques qui ont été revélées lors de l'insolation. Après cette étape, nous rinçons notre carte à l'eau et la plongeons dans un bain d'acétone pour enlever la résine qui protégeait les autres parties du circuit. 
 Après cette étape on rince encore à l'eau et voilà, notre carte est prête. On utilise un forêt pour le perçage et enfin on soude les composants(résistances, capacités, amplificateur,..... ) sur la carte.
 
 
-## 4. Code Arduino
+## 4. [Code Arduino](#code-arduino) 
 Dans notre code arduino, nous récuperons la valeur de la tension de notre capteur que nous convertissons en résistance. Nous affichons cette tension et cette  résistance sur l'oled et sur l'application que nous avons réalisée sur MIT AppIventor
 
 1. Fonction pour l'affichage oled
 2. Fonction pour la commande du module bluetooth
 3. Fonction pour l'encodeur rotatoire
 
-## 5.APK MIT AppInventor
+## 5. [APK MIT AppInventor](#apk-mit)
 TODO: Write history
-## 6. Banc de test
+## 6. [Banc de test](#banc-test)
 
 ## 7. General info
 TODO: Write license
