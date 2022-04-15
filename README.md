@@ -12,7 +12,7 @@ Protocol de réalisation de capteurs low-tech à base de graphite
 - 6. [Banc de test]
 
 <a name="general-info"></a>
-### General Info
+### 7. General Info
 
 
 
@@ -108,7 +108,7 @@ Dans notre code arduino, nous récuperons la valeur de la tension de notre capte
 TODO: Write history
 ## 6. Banc de test
 
-## License
+## 7. General info
 TODO: Write license
 ## Roadmap
   - [ ] things
