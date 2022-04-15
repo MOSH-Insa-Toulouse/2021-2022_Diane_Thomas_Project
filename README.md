@@ -58,7 +58,7 @@ Fréquence de coupure d'environ 1.6Hz, c'est un filtre actif passe bas qui perme
  
  
 
-## [Réalisation PCB KICAD](#realisation-pcb-kicad)
+## Réalisation PCB KICAD
 
 Pour la réalisation de notre PCB nous avons utilisé le logiciel KICAD. Nous avons d'abord effectué le schématique en assignant à chaque composants (Bluetooth, oled, encodeur rotatoire) une empreinte et un symbole que nous avons réalisé, ensuite nous avons assigné à chaque composant un motif 3D dans pour la visualisation fait le routage de notre PCB, et enfin nous avons effectué le routage de notre carte
 
