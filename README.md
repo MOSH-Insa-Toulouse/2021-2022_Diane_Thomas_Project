@@ -4,12 +4,17 @@ Protocol de réalisation de capteurs low-tech à base de graphite
 
 
 ## Sommaire
-1. [Test circuit avec LT-Spice](#test-circuit-avec-lt-spice)
-2. [Réalisation PCB KICAD](#realisation-pcb-kicad)
-3. [Réalisation PCB physique](#realisation-pcb-physique)
-4. [Code Arduino](#code-arduino) 
-5. [APK MIT AppInventor](#apk-mit-appinventor)
-6. [Banc de test](#banc-de-test)
+- [2021-2022_Diane_Thomas_Project](#2021-2022_diane_thomas_project)
+  - [Sommaire](#sommaire)
+    - [Test circuit avec LT-Spice](#test-circuit-avec-lt-spice)
+  - [Réalisation PCB KICAD](#réalisation-pcb-kicad)
+  - [Réalisation PCB physique](#réalisation-pcb-physique)
+  - [Code Arduino](#code-arduino)
+  - [APK MIT AppInventor](#apk-mit-appinventor)
+  - [Banc de test](#banc-de-test)
+  - [Amélioration à apporter](#amélioration-à-apporter)
+      - [Point d'amélioration](#point-damélioration)
+  - [Auteurs](#auteurs)
 
 
 
@@ -96,27 +101,54 @@ Pour la réalisation de notre PCB nous avons utilisé le logiciel KICAD. Nous av
 
 
 ## Réalisation PCB physique
-Nous avons imprimé notre circuit sur une carte d'époxy recouverte de cuivre lui même couvert par une résine positive photosensible.
-Notre circuit a d'abord été imprimé(avec une imprimante classique à l'encre) sur du papier plastique transparent. Les motifs ont été ensuite transferré sur la carte par insolation aux UV et un passage au développeur pour enlever la résine insolée.
-Ensuite nous passons la carte dans un bain de perclorure de fer pour enlever les parties métalliques qui ont été revélées lors de l'insolation. Après cette étape, nous rinçons notre carte à l'eau et la plongeons dans un bain d'acétone pour enlever la résine qui protégeait les autres parties du circuit. 
-Après cette étape on rince encore à l'eau et voilà, notre carte est prête. On utilise un forêt pour le perçage et enfin on soude les composants(résistances, capacités, amplificateur,..... ) sur la carte.
+Nous avons imprimé notre circuit sur une carte d'époxy recouverte de cuivre qui est lui même couvert par une résine positive photosensible.
+Notre circuit a d'abord été imprimé(avec une imprimante classique à l'encre) sur du papier plastique transparent. 
+Les motifs ont été ensuite transferrés sur la carte par insolation aux UV et un passage au développeur pour dissoudre la résine insolée.
+Ensuite nous passons la carte dans un bain de perclorure de fer pour dissoudre les parties métalliques qui ont été revélées lors de l'insolation. 
+Après cette étape, nous rinçons notre carte à l'eau et la plongeons dans un bain d'acétone pour enlever la résine qui protégeait les autres parties du circuit. 
+Enfin l'on rince encore à l'eau et voilà, notre carte est prête. 
+On utilise un forêt pour le perçage et enfin on soude les composants(résistances, capacités, amplificateur,..... ) sur la carte.
 
 
 ## Code Arduino 
 Dans notre code arduino, nous récuperons la valeur de la tension de notre capteur que nous convertissons en résistance. Nous affichons cette tension et cette  résistance sur l'oled et sur l'application que nous avons réalisée sur MIT AppIventor
 
-1. Fonction pour l'affichage oled
-2. Fonction pour la commande du module bluetooth
-3. Fonction pour l'encodeur rotatoire
+Vous trouverez le code ici  .
 
 ## APK MIT AppInventor
-TODO: Write history
+Pour Installer l'application, il vous suffit de télecharger le fichier .apk sur votre télephone et de l'installer.
+Vous trouverez ce fichier dans ce dosssier .
+L'application permet de lire les valeurs de résistance et de tension mesurées, et aussi de voir la courbe de mesure de la résistance.
+Un bouton vous permet de vous connecter et vous déconnecter. Après la mesure il est possible de récuperer les valeurs de tension et de résistance mesurées dans un fichier txt qui s'enregistre automatiquement dans vos documents.
+
+![APK](https://user-images.githubusercontent.com/98905793/163808292-009867f8-d38c-4246-9833-f37e429a7070.png)
+
+
 ## Banc de test
 
-## General info
-TODO: Write license
-## Roadmap
-  - [ ] things
-  - [ ] things
-  - [ ] things
+Nous avons effectué notre banc de test en utilisant des cylindres de différents diamètres(1, 1.5, 2, 2.5, 3, 3.5, 4 cm) fabriqués avec du du papier recyclé. On met le capteur en tension, en le faisant épouser la forme des différents cylindre).
+Les resultats peuvent être consulté ici .
+![Cylindre_banc_test](https://user-images.githubusercontent.com/98905793/163807672-3dbb63a7-c79d-4e1a-a61a-a478c98aaf14.jpg)
+
+
+## Amélioration à apporter
+Notre banc de test présente certaines limites et peut être amélioré.
+On a:
+
+- La non répétabilité des mesures. En effet, les déformations appliquées peuvent varier entre chaque mesure: le banc de test ne permet pas d’appliquer une déformation identique. On pourrait envisager un banc de test fonctionnant avec un servomoteur par exemple (Ce système permet de générer des contraintes avec des angles bien présice et d'obtenir, de ce fait, une meilleure reproductibilité)
+
+- Le dépôt de graphite sur le papier qui ne peut pas être maitriser cela conduit une variation de mesure pour différents dépôt de même graphite.
+
+-la déformation irréversible du capteur après un certains nombres de mesures.
+
+#### Point d'amélioration
+
+Afin de pouvoir lire une plus grande plage de résistance tout en ayant des mesures stables, il faudrait pouvoir changer le gain du circuit transimpédance c'est à dire modifier la résistance R2 (voir schéma KiCad ). Cependant nous l'avons soudée sur le circuit PCB. Il faut donc à la place de la résistance R2 mettre un potentiomètre qui permet de varier  celle-ci.
+
+
+## Auteurs
+  
+  - Bonkoungou Diane bonkoung@etud.insa-toulouse.fr
+  - Bousquet Thomas tbousque@etud.insa-toulouse.fr
+
 
