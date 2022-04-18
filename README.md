@@ -109,6 +109,8 @@ Après cette étape, nous rinçons notre carte à l'eau et la plongeons dans un 
 Enfin l'on rince encore à l'eau et voilà, notre carte est prête. 
 On utilise un forêt pour le perçage et enfin on soude les composants(résistances, capacités, amplificateur,..... ) sur la carte.
 
+![CartePCB_marche](https://user-images.githubusercontent.com/98905793/163810848-d19a8177-2954-4b40-8d5b-c6eb3ca76b1a.jpg)
+
 
 ## Code Arduino 
 Dans notre code arduino, nous récuperons la valeur de la tension de notre capteur que nous convertissons en résistance. Nous affichons cette tension et cette  résistance sur l'oled et sur l'application que nous avons réalisée sur MIT AppIventor
@@ -128,7 +130,7 @@ Un bouton vous permet de vous connecter et vous déconnecter. Après la mesure i
 
 Nous avons effectué notre banc de test en utilisant des cylindres de différents diamètres(1, 1.5, 2, 2.5, 3, 3.5, 4 cm) fabriqués avec du du papier recyclé. On met le capteur en tension, en le faisant épouser la forme des différents cylindre).
 Les resultats peuvent être consulté ici .
-![Cylindre_banc_test](https://user-images.githubusercontent.com/98905793/163807672-3dbb63a7-c79d-4e1a-a61a-a478c98aaf14.jpg)
+![Cylindre_banc_test](https://user-images.githubusercontent.com/98905793/163810617-1eadc30e-e6a0-4842-b525-158685afb5b0.jpg)
 
 
 ## Amélioration à apporter
