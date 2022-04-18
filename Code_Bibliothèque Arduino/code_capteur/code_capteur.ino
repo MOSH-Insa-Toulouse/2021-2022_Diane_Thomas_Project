@@ -52,7 +52,7 @@ float R2=1000.;
 float R3=100000.;
 float R5=10000.;
 
-float resistance;
+float Resistance;
 int menu = 0;
 //encodeur
 bool clkState = LOW;
@@ -170,21 +170,11 @@ if (currentMillis - previousMillis >= interval) {
 
   previousMillis = currentMillis;
 
-  // display(SSD1306_SETCONTRAST); // // 0x81
-  // SSD1306_command(0x8F);//
   Voltage1 = analogRead(analog_port) *5. / 1023.; //Tension sur 5V et 10bits
-  /*Voltage2 = int(map(Voltage1, 0, 1023, 0, 255));*/
-  /*byte Voltage2 = Voltage1;*/
-  resistance = (1 + 100);//Calcule de la résistance
-  /*Serial.print(resistance / 1000000); //envoie de la valeur de la résistance par le module bluetooth
-  Serial.print(",");//séparateur entre la valeur de tension et de résistance*/
-  Serial.println(Voltage1);//envoie de la valeur de la tension par le moniteur serie
-  // vérifie sur le moniteur si le switch et le pos de l'encodeur fonctionnent
-  /*Serial.print(readSw());
-  Serial.print(readPos());*/
-  /*Serial.println(";");//séparateur entre 2 mesures*/
-
-
+  Resistance = (1 + 100) * 100000 * (5 / Voltage1) - 100000 - 10000;//Calcule de la résistance
+  Serial.print(Voltage1);//envoie de la valeur au moniteur serie
+  Serial.println(" ");//séparateur entre la valeur de tension et de résistance
+  
 //envoi données bluetooth
 
   mySerial.print(Voltage1);
@@ -216,10 +206,10 @@ if (currentMillis - previousMillis >= interval) {
   rotation = value;
 }
    if (readSw()%2==0) {
-    Affichage_Resistance (Voltage3*4); //Calcule résistance provisoire//
+    Affichage_Resistance (Resistance/1000000); //affichage de la résistance en Mohm//
   }
   if (readSw()%2!=0) {
-    Affichage_Tension (Voltage3);
+    Affichage_Tension (Voltage1);
   }
 }
 
