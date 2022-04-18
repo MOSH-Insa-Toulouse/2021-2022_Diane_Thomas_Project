@@ -118,7 +118,7 @@ Vous trouverez le code ici [Code arduino](https://github.com/MOSH-Insa-Toulouse/
 
 ## APK MIT AppInventor
 Pour Installer l'application, il vous suffit de télecharger le fichier .apk sur votre télephone et de l'installer.
-Vous trouverez ce fichier dans ce dosssier ![APK app inventor](https://github.com/MOSH-Insa-Toulouse/2021-2022_Diane_Thomas_Project/tree/main/APK%20app%20inventor).
+Vous trouverez ce fichier dans ce dosssier [APK app inventor](https://github.com/MOSH-Insa-Toulouse/2021-2022_Diane_Thomas_Project/tree/main/APK%20app%20inventor).
 L'application permet de lire les valeurs de résistance et de tension mesurées, et aussi de voir la courbe de mesure de la résistance.
 Un bouton vous permet de vous connecter et vous déconnecter. Après la mesure il est possible de récuperer les valeurs de tension et de résistance mesurées dans un fichier txt qui s'enregistre automatiquement dans vos documents.
 
