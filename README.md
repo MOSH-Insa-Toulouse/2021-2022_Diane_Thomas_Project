@@ -129,6 +129,8 @@ Un bouton vous permet de vous connecter et vous déconnecter. Après la mesure i
 
 Nous avons effectué notre banc de test en utilisant des cylindres de différents diamètres(1, 1.5, 2, 2.5, 3, 3.5, 4 cm) fabriqués avec du du papier recyclé. On met le capteur en tension, en le faisant épouser la forme des différents cylindre).
 Les resultats peuvent être consulté ici [Datasheet et banc de test](https://github.com/MOSH-Insa-Toulouse/2021-2022_Diane_Thomas_Project/tree/main/Datasheet%20et%20banc%20de%20test) .
+
+
 ![Cylindre_banc_test](https://user-images.githubusercontent.com/98905793/163810617-1eadc30e-e6a0-4842-b525-158685afb5b0.jpg)
 
 
