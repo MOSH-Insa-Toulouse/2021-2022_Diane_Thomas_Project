@@ -3,20 +3,21 @@ Protocol de réalisation de capteurs low-tech à base de graphite
 
 
 
-# Sommaire
-- 1. Test circuit avec LT-Spice
-- 2. Réalisation PCB KICAD
-- 3. Réalisation PCB physique
-- 4. Code Arduino
-- 5. APK MIT AppInventor
-- 6. Banc de test
+## Sommaire
+1. [Test circuit avec LT-Spice](#test-circuit-avec-lt-spice)
+2. [Réalisation PCB KICAD](#realisation-pcb-kicad)
+3. [Réalisation PCB physique](#realisation-pcb-physique)
+4. [Code Arduino](#code-arduino) 
+5. [APK MIT AppInventor](#apk-mit-appinventor)
+6. [Banc de test](#banc-de-test)
 
 
 
 
 
 
-## 1. Test du circuit électrique avec LT-Spice
+
+### Test circuit avec LT-Spice
 
 ![Circuit_suggéré](https://user-images.githubusercontent.com/98905793/161027466-d61d4278-4927-4314-a9a8-1a1a7b82081c.png)
 
@@ -57,29 +58,35 @@ Fréquence de coupure d'environ 1.6Hz, c'est un filtre actif passe bas qui perme
  
  
 
-## 2. Réalisation PCB KICAD
+## Réalisation PCB KICAD
 
 Pour la réalisation de notre PCB nous avons utilisé le logiciel KICAD. Nous avons d'abord effectué le schématique en assignant à chaque composants (Bluetooth, oled, encodeur rotatoire) une empreinte et un symbole que nous avons réalisé, ensuite nous avons assigné à chaque composant un motif 3D dans pour la visualisation fait le routage de notre PCB, et enfin nous avons effectué le routage de notre carte
 
 2.1. Schématique
+
 ![Schématique](https://user-images.githubusercontent.com/98905793/161578505-547fc367-0eae-473f-96f7-5a51b1d9bc94.png)
 
 2.2. Symbole et Empreinte des composants
 
 -Module bluetooth
+
 ![Module_bluetooth](https://user-images.githubusercontent.com/98905793/161592737-143bc7c7-3068-4333-93f5-85c8d5d00196.png)
 
 
 -Encodeur rotatoire
+
 ![encodeur_rotatoire](https://user-images.githubusercontent.com/98905793/161592620-12e2ea18-629f-47c3-a090-60c556da0042.png)
 
 
 -Oled
+
 ![Oled](https://user-images.githubusercontent.com/98905793/161592788-2df53909-a14c-45ce-bc2a-833ea473ee02.png)
 
 
 2.3 Carte PCB 
+
 ![Carte_PCB](https://user-images.githubusercontent.com/98905793/161579979-e78d3553-924d-4140-9f97-e6bd357a53aa.png)
+
 
 2.4 Carte PCB visu 3d
 
@@ -88,25 +95,25 @@ Pour la réalisation de notre PCB nous avons utilisé le logiciel KICAD. Nous av
 
 
 
-## 3. Réalisation PCB physique
+## Réalisation PCB physique
 Nous avons imprimé notre circuit sur une carte d'époxy recouverte de cuivre lui même couvert par une résine positive photosensible.
 Notre circuit a d'abord été imprimé(avec une imprimante classique à l'encre) sur du papier plastique transparent. Les motifs ont été ensuite transferré sur la carte par insolation aux UV et un passage au développeur pour enlever la résine insolée.
 Ensuite nous passons la carte dans un bain de perclorure de fer pour enlever les parties métalliques qui ont été revélées lors de l'insolation. Après cette étape, nous rinçons notre carte à l'eau et la plongeons dans un bain d'acétone pour enlever la résine qui protégeait les autres parties du circuit. 
 Après cette étape on rince encore à l'eau et voilà, notre carte est prête. On utilise un forêt pour le perçage et enfin on soude les composants(résistances, capacités, amplificateur,..... ) sur la carte.
 
 
-## 4. Code Arduino
+## Code Arduino 
 Dans notre code arduino, nous récuperons la valeur de la tension de notre capteur que nous convertissons en résistance. Nous affichons cette tension et cette  résistance sur l'oled et sur l'application que nous avons réalisée sur MIT AppIventor
 
 1. Fonction pour l'affichage oled
 2. Fonction pour la commande du module bluetooth
 3. Fonction pour l'encodeur rotatoire
 
-## 5.APK MIT AppInventor
+## APK MIT AppInventor
 TODO: Write history
-## 6. Banc de test
+## Banc de test
 
-## License
+## General info
 TODO: Write license
 ## Roadmap
   - [ ] things
