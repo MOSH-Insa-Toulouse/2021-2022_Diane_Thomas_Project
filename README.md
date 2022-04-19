@@ -40,7 +40,7 @@ Fréquence de coupure mesurée d'environ *16Hz*, ce filtre sert à filtrer le br
 - Visualisation mesures filtre *R3C4*
 ![filtre 2 R3C4](https://user-images.githubusercontent.com/98905793/161031602-96b18b47-e291-45e6-9dd0-08b9a9dc2465.PNG)
 
-Fréquence de coupure d'environ 1.6Hz, c'est un filtre actif passe bas qui permet d'avoir le maximum d'efficacité en maintenant le  gain de ?? constant.
+Fréquence de coupure d'environ 1.6Hz, c'est un filtre actif passe bas qui permet d'avoir le maximum d'efficacité en maintenant le  gain constant.
 
 - Visualition filtre R6C2
 ![filtre 3 R6C2](https://user-images.githubusercontent.com/98905793/161031729-e01387f3-db88-49cd-977a-db9e50c20280.PNG)
