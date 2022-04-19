@@ -64,7 +64,7 @@ Fréquence de coupure d'environ 1.6Hz, c'est un filtre actif passe bas qui perme
 
 ## Réalisation PCB KICAD
 
-Pour la réalisation de notre PCB nous avons utilisé le logiciel KICAD. Nous avons d'abord effectué le schématique en assignant à chaque composants (Bluetooth, oled, encodeur rotatoire) une empreinte et un symbole que nous avons réalisé, ensuite nous avons assigné à chaque composant un motif 3D dans pour la visualisation fait le routage de notre PCB, et enfin nous avons effectué le routage de notre carte
+Pour la réalisation de notre PCB nous avons utilisé le logiciel KICAD. Nous avons d'abord effectué le schématique en assignant à chaque composants (Bluetooth, oled, encodeur rotatoire) une empreinte et un symbole que nous avons réalisé, ensuite nous avons assigné à chaque composant un motif 3D pour la visualisation, et enfin nous avons effectué le routage de notre carte PCB
 
 2.1. Schématique
 
@@ -100,7 +100,7 @@ Pour la réalisation de notre PCB nous avons utilisé le logiciel KICAD. Nous av
 
 
 ## Réalisation PCB physique
-Nous avons imprimé notre circuit sur une carte d'époxy recouverte de cuivre qui est lui même couvert par une résine positive photosensible.
+Nous avons imprimé notre circuit sur une carte d'époxy recouverte de cuivre qui est elle-même couverte par une résine positive photosensible.
 Notre circuit a d'abord été imprimé(avec une imprimante classique à l'encre) sur du papier plastique transparent. 
 Les motifs ont été ensuite transferrés sur la carte par insolation aux UV et un passage au développeur pour dissoudre la résine insolée.
 Ensuite nous passons la carte dans un bain de perclorure de fer pour dissoudre les parties métalliques qui ont été revélées lors de l'insolation. 
@@ -127,7 +127,7 @@ Un bouton vous permet de vous connecter et vous déconnecter. Après la mesure i
 
 ## Banc de test
 
-Nous avons effectué notre banc de test en utilisant des cylindres de différents diamètres(1, 1.5, 2, 2.5, 3, 3.5, 4 cm) fabriqués avec du du papier recyclé. On met le capteur en tension, en le faisant épouser la forme des différents cylindre).
+Nous avons effectué notre banc de test en utilisant des cylindres de différents diamètres(1, 1.5, 2, 2.5, 3, 3.5, 4 cm) fabriqués avec du papier recyclé. On met le capteur en tension, en le faisant épouser la forme des différents cylindre).
 Les resultats peuvent être consulté ici [Datasheet et banc de test](https://github.com/MOSH-Insa-Toulouse/2021-2022_Diane_Thomas_Project/tree/main/Datasheet%20et%20banc%20de%20test) .
 
 
@@ -146,7 +146,7 @@ On a:
 
 #### Point d'amélioration
 
-Afin de pouvoir lire une plus grande plage de résistance tout en ayant des mesures stables, il faudrait pouvoir changer le gain du circuit transimpédance c'est à dire modifier la résistance R2 (voir schéma KiCad ). Cependant nous l'avons soudée sur le circuit PCB. Il faut donc à la place de la résistance R2 mettre un potentiomètre qui permet de varier  celle-ci.
+Afin de pouvoir lire une plus grande plage de résistance tout en ayant des mesures stables, il faudrait pouvoir changer le gain du circuit trans-impédance c'est à dire modifier la résistance R2 (voir schéma KiCad ). Cependant nous l'avons soudée sur le circuit PCB. Il faut donc à la place de la résistance R2 mettre un potentiomètre qui permet de varier  celle-ci.
 
 
 ## Auteurs
