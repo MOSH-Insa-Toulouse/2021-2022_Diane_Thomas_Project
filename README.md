@@ -1,7 +1,6 @@
 # 2021-2022_Diane_Thomas_Project
 Protocol de réalisation de capteurs low-tech à base de graphite
 
-Test 1234
 
 
 ## Sommaire
@@ -36,7 +35,7 @@ Pour chaque filtre nous avons mesuré la fréquence de coupure expérimentalemen
 - Visualisation mesure filtre *R1C1*
 ![filtre 1 R1C1](https://user-images.githubusercontent.com/98905793/161029367-5dfc7286-252c-4cfc-b5d7-4620bdf10430.PNG)
 
-Fréquence de coupure mesurée d'environ *16Hz*, ce filtre sert à filtrer le bruit de courant et aussi d'éviter les bruits de hautes fréquences causé par distorsion dans les étages d'entrée 
+Fréquence de coupure mesurée d'environ *16Hz*, ce filtre sert à filtrer le bruit de courant et aussi d'éviter les bruits de hautes fréquences causés par distorsion dans les étages d'entrée 
 
 - Visualisation mesures filtre *R3C4*
 ![filtre 2 R3C4](https://user-images.githubusercontent.com/98905793/161031602-96b18b47-e291-45e6-9dd0-08b9a9dc2465.PNG)
@@ -46,7 +45,7 @@ Fréquence de coupure d'environ 1.6Hz, c'est un filtre actif passe bas qui perme
 - Visualition filtre R6C2
 ![filtre 3 R6C2](https://user-images.githubusercontent.com/98905793/161031729-e01387f3-db88-49cd-977a-db9e50c20280.PNG)
 
- Fréquence de coupure d'environ 1.6kHz, c'est le filtre de sortie qui permet d'adapter la fréquence du signal à la carte ADC arduino. Il empêche les les fréquences élevées (bruit d'alimentation...) de passé dans l'ADC
+ Fréquence de coupure d'environ 1.6kHz, c'est le filtre de sortie qui permet d'adapter la fréquence du signal à la carte ADC arduino. Il empêche les fréquences élevées (bruit d'alimentation...) de passer dans l'ADC
  
  - La capacité C3 elle permet de filtrer le bruit d'alimentation.
  
@@ -101,24 +100,25 @@ Pour la réalisation de notre PCB nous avons utilisé le logiciel KICAD. Nous av
 
 
 ## Réalisation PCB physique
-Nous avons imprimé notre circuit sur une carte d'époxy recouverte de cuivre qui est elle-même couverte par une résine positive photosensible.
-Notre circuit a d'abord été imprimé(avec une imprimante classique à l'encre) sur du papier plastique transparent. 
+Nous avons imprimé notre circuit sur une carte d'epoxy recouverte de cuivre qui est elle-même couverte par une résine positive photosensible.
+Notre circuit a d'abord été imprimé(avec une imprimante classique à l'encre) sur du papier plastique transparent, faisant office de masque lors de l'insolation. 
 Les motifs ont été ensuite transferrés sur la carte par insolation aux UV et un passage au développeur pour dissoudre la résine insolée.
 Ensuite nous passons la carte dans un bain de perclorure de fer pour dissoudre les parties métalliques qui ont été revélées lors de l'insolation. 
 Après cette étape, nous rinçons notre carte à l'eau et la plongeons dans un bain d'acétone pour enlever la résine qui protégeait les autres parties du circuit. 
 Enfin l'on rince encore à l'eau et voilà, notre carte est prête. 
-On utilise un forêt pour le perçage et enfin on soude les composants(résistances, capacités, amplificateur,..... ) sur la carte.
+On utilise un foret pour le perçage et enfin on soude les composants(résistances, capacités, amplificateur,..... ) sur la carte.
 
 ![CartePCB_marche](https://user-images.githubusercontent.com/98905793/163810848-d19a8177-2954-4b40-8d5b-c6eb3ca76b1a.jpg)
 
 
 ## Code Arduino 
-Dans notre code arduino, nous récuperons la valeur de la tension de notre capteur que nous convertissons en résistance. Nous affichons cette tension et cette  résistance sur l'oled et sur l'application que nous avons réalisée sur MIT AppIventor
+Dans notre code arduino, nous récuperons la valeur de la tension de notre capteur que nous convertissons en résistance. Nous affichons cette tension et cette  résistance sur l'oled et sur l'application que nous avons réalisée sur MIT AppIventor en envoyant la donnée de tension par le module Bluetooth. Une pression sur l'encodeur rotatoire permet de de changer l'affichage sur l'écran OLED, et de passer de l'affichage de la résistance à l'affichage de la tension (et inversement). 
+
 
 Vous trouverez le code ici [Code arduino](https://github.com/MOSH-Insa-Toulouse/2021-2022_Diane_Thomas_Project/tree/main/Code_Biblioth%C3%A8que%20Arduino/code_capteur) .
 
 ## APK MIT AppInventor
-Pour Installer l'application, il vous suffit de télecharger le fichier .apk sur votre télephone et de l'installer.
+Pour Installer l'application, il vous suffit de télécharger le fichier .apk sur votre téléphone et de l'installer.
 Vous trouverez ce fichier dans ce dosssier [APK app inventor](https://github.com/MOSH-Insa-Toulouse/2021-2022_Diane_Thomas_Project/tree/main/APK%20app%20inventor).
 L'application permet de lire les valeurs de résistance et de tension mesurées, et aussi de voir la courbe de mesure de la résistance.
 Un bouton vous permet de vous connecter et vous déconnecter. Après la mesure il est possible de récuperer les valeurs de tension et de résistance mesurées dans un fichier txt qui s'enregistre automatiquement dans vos documents.
@@ -139,9 +139,9 @@ Les resultats peuvent être consulté ici [Datasheet et banc de test](https://gi
 Notre banc de test présente certaines limites et peut être amélioré.
 On a:
 
-- La non répétabilité des mesures. En effet, les déformations appliquées peuvent varier entre chaque mesure: le banc de test ne permet pas d’appliquer une déformation identique. On pourrait envisager un banc de test fonctionnant avec un servomoteur par exemple (Ce système permet de générer des contraintes avec des angles bien présice et d'obtenir, de ce fait, une meilleure reproductibilité)
+- La non répétabilité des mesures. En effet, les déformations appliquées peuvent varier entre chaque mesure: le banc de test ne permet pas d’appliquer une déformation identique. On pourrait envisager un banc de test fonctionnant avec un servomoteur par exemple (Ce système permet de générer des contraintes avec des angles bien précis et d'obtenir, de ce fait, une meilleure reproductibilité)
 
-- Le dépôt de graphite sur le papier qui ne peut pas être maitriser cela conduit une variation de mesure pour différents dépôt de même graphite.
+- Le dépôt de graphite sur le papier qui ne peut pas être maitrisé cela conduit une variation de mesure pour différents dépôts de même graphite.
 
 -la déformation irréversible du capteur après un certains nombres de mesures.
 
