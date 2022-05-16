@@ -27,7 +27,7 @@ SoftwareSerial mySerial(rxPin, txPin);
 
 //compteur millisecondes
 unsigned long previousMillis = 0;
-const long interval = 10000;
+const long interval = 2000;
 
 //Variables Capteur - sortie ADC (lecture tension)
 #define analog_port 0
